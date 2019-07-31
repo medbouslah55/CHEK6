@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+}
+body{
+    Background-image:
+    Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  .ok{
+      display: flex;
+      list-style:none;
+      justify-content:space-around;
+      background-color:yellow; 
+  }
+  button:hover{
+      background-color: lightblue;
+  }
+  ul li a {
+      display:inline;
+      font-size: 40px;
+      text-decoration: none;
+      color:red;
+  }
+  ul li a:hover
+{
+    color: white;
+}
+h1 {
+    
+    color: white;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+}
+.image .viewa{
+    width: 30%;
+}
+.viewa img{
+    width: 100%;
+}
+a{
+    color: yellow;
+}
+.feedback
+{
+    color: white;
+}
+.viewa{
+    position: relative;
+}
+.view{
+    
+    position: absolute;
+    top:48%;
+    left: 47%;
+    display: none;
+}
+.navbar{
+    margin:0;
+}
+.chok img{
+height: 40%;
+width: 25%;
+margin: 20px;
+}
+.chok {
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.mehdi{
+    margin-bottom: 30px;
+}
